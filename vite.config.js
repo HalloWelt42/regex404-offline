@@ -3,9 +3,9 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 export default defineConfig({
-    base: './',
+    base: '/regex404-offline/', // Repo-Name einsetzen
     build: {
-        outDir: 'dist',
+        outDir: 'docs',           // statt dist jetzt docs
         assetsDir: 'assets',
         rollupOptions: {
             input: {
